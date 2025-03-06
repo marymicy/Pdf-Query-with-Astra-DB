@@ -1,1 +1,3 @@
 # Pdf-Query-with-Astra-DB
+
+This project is an AI-powered document search and Q&A system that leverages LangChain, Astra DB (Cassandra), and OpenAI to extract, store, and retrieve information from PDFs. It processes PDFs using PyPDF2, chunks the text for efficient token usage, and converts it into vector embeddings with OpenAIEmbeddings, which are then stored in Astra DB’s vector database. Users can ask natural language questions, and the system retrieves relevant document fragments using VectorStoreIndexWrapper and similarity search, generating responses with OpenAI's LLM. This interactive chat-based system is ideal for research, enterprise knowledge management, and intelligent document retrieval, making complex PDF data easily searchable and accessible.
